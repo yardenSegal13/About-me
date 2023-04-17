@@ -78,5 +78,28 @@ p {
 }
 
 #contact {
-  padding-top: 50px;
+  padding: 50px 0;
+}
+
+@media (max-width: 574px) {
+  .home-photo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+  }
 }
